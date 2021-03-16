@@ -207,7 +207,7 @@
                 <more>
                     <ul>
                         <li>Tableau: https://public.tableau.com/profile/eszka#!/?newProfile=&activeTab=0</li>
-                        <li></li>
+                      
                     </ul>
                 </more>
             </p>
@@ -363,14 +363,32 @@
                         <t>Email</t>
                         <br/> azychewicz@gmail.com <br/>
                     </p>
-					
-					<!--phone
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+        crossorigin="anonymous">
+</script>
+<script src="hide-phone-num.min.js"></script>
+
+<div class="phone" 
+     data-tel="+48 608 399 834>
+     <a href="#">Show Number</a>
+</div>
+
+<script>
+$(function(){
+  $('.phone').hidePhoneNum({
+    linkClass: 'tel-link'
+  });
+});
+</script>
+
 					<p>
                         <t>Phone</t>
-                        <br/> +48 608 399 834 <br/>
+                        <br/>608 399 834 <br/>
+		
                     </p>
-					-->
-					
+
                 </div>
             </div>
             <!--/.row -->
